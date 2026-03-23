@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100dvh;
+    background-image: url(background.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    transition: 0.3s;
+}
+
+img:hover {
+    width: 150px;
+    rotate: 360deg;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(117, 117, 117);
+    transition: 0.3s;
+}
+
+p:hover {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 40px;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+h5:hover {
+    font-size: 50px;
+    z-index: -5;
+}
+
+.cabeçalho {
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 175, 78);
+}
+
+.rodapé {
+    width: 100dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 175, 78);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo {
+    width: 60px;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    width: 150px;
+    rotate: 360deg;
+}
+
+li {
+    position: relative;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+li:hover{
+    font-size: 50px;
+}
+
+li a {
+    color: red;
+}
