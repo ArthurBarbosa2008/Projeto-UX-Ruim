@@ -69,6 +69,12 @@ h5:hover {
     background-color: rgb(255, 175, 78);
 }
 
+span {
+    color: rgb(47, 78, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 ul {
     display: flex;
     flex-direction: row;
@@ -94,8 +100,13 @@ li {
     transition: 0.2s;
 }
 
+#Contato {
+    margin-bottom: 50px;
+}
+
 li:hover{
-    font-size: 50px;
+    font-size: 60px;
+    margin-inline: 120px;
 }
 
 li a {
